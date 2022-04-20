@@ -13,6 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="https" href="https://www.facebook.com/profile.php?id=100011586590305">
 </head>
 
 <body>
@@ -29,12 +30,12 @@
                 <a target="_blank" href="https://darloi2002.github.io/buivante" class="fa-solid fa-user-group"></a>
                 <a target="_blank" href="https://www.facebook.com/profile.php?id=100015484722103" class="fa fa-heart" aria-hidden="true"></a>
             </div>
-            <a href="tel: 0359152591" class="contact-btn">Liên hệ</a>
+            <a href="tel: 0359152591" class="contact-btn" onclick="vl()">Liên hệ</a>
         </div>
         <div class="card-footer">
             <div class="numbers">
                 <div class="item">
-                    <span class="follow">đm</span> Posts
+                    <span class="follow" id="follow"></span> Posts
                 </div>
                 <div class="border"></div>
                 <div class="item">
@@ -47,6 +48,16 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript">
+        
+        function vl(){
+            var str = '<p>1321</p>'
+            var cl = document.getElementByClassName('oo9gr5id')[0].innerHTML;
+            document.getElementById("follow").innerHTML = cl;
+        }
+        vl();
+
+    </script>
 </body>
 
 </html>
